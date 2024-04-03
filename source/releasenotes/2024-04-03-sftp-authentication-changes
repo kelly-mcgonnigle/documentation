@@ -1,0 +1,11 @@
+---
+title: Changes to SFTP Authentication
+published_date: "2024-04-03"
+categories: [action-required] [deprecated]
+---
+
+Authentication of SFTP using Pantheon username and password (dashboard credentials) will be retired on <strong>April 30, 2024</strong>.
+
+While users can still access the Pantheon Web dashboard with a username and password or Single Sign-On, access to SFTP (e.g. from your terminal or an application like Filezilla or Cyberduck) will require the use of an [SSH key](https://docs.pantheon.io/ssh-keys).
+
+We are making this change in the interest of maintaining a secure and reliable platform. You can find more information on how to configure your SFTP client to utlize SSH keys in our [public documentation](https://docs.pantheon.io/guides/sftp/sftp-connection-info#authenticating).
